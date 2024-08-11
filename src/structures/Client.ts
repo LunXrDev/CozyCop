@@ -1,8 +1,7 @@
 import { Client, IntentsBitField, Partials } from "discord.js";
-import dotenv from "dotenv";
 import http from "http";
 
-const envConf = dotenv.config();
+const dotenv = require("dotenv").config();
 
 const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/html');

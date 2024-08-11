@@ -1,0 +1,19 @@
+{
+  "name": "cozy_cop",
+  "version": "0.0.1-b",
+  "description": "The Moderation Bot for LunXr's Discord Servers",
+  "main": "build/main.js",
+  "author": "LunXr",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "ts-node ./build/main.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
